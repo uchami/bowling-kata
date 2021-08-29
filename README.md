@@ -1,19 +1,7 @@
-# Python with [codewars_test](https://github.com/Codewars/python-test-framework)
-
-
-## Installation
-
-install requirements listed in requirements.txt file:
-
-```pip install -r requirements.txt```
-
-
 ## Run
 
-```python tests/example.py```
+```python3 tests.py```
 
 ## Resources
 
- - https://github.com/Codewars/python-test-framework
- - https://docs.codewars.com/languages/python/codewars-test/
- - https://pypi.org/project/codewars-test-teey
+ - https://kata-log.rocks/bowling-game-kata
