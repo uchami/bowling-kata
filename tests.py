@@ -47,7 +47,7 @@ class XXX(unittest.TestCase):
         bowling = Bowling()
         bowling.roll(10)
         bowling.roll(5)
-        self.assertEqual(bowling.score(), 15)
+        self.assertEqual(bowling.score(), 20)
 
     def test09(self):
         bowling = Bowling()
@@ -71,13 +71,13 @@ class XXX(unittest.TestCase):
         self.assertEqual(bowling.score(), 28)
     
     #Rompe el planteo actual porque cruza 3 frames y el codigo solo mira el frame anterior.
-    @unittest.skip("proximo test")
+    # @unittest.skip("proximo test")
     def test12(self):
         bowling = Bowling()
         bowling.roll(10)
         bowling.roll(10)
         bowling.roll(4) 
-        self.assertEqual(bowling.score(), 38)
+        self.assertEqual(bowling.score(), 42)
 
 
 if __name__ == '__main__':
